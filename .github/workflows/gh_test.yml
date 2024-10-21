@@ -1,0 +1,9 @@
+name: This is the test github actions script
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: print echo statement
+        run: echo "Hello World!!"
+    
